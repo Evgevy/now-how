@@ -1,7 +1,13 @@
 const casesSwiper = new Swiper('.cases-swiper', {
-    slidesPerView: 4,
-    spaceBetween: 172,
+    slidesPerView: 'auto',
+    spaceBetween: 40,
     loop: true,
+    breakpoints: {
+        1024: {
+            spaceBetween: 90,
+        }
+    },
+
     navigation: {
         nextEl: '.case-next',
         prevEl: '.case-prev',
