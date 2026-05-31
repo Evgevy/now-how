@@ -2,6 +2,7 @@ const casesSwiper = new Swiper('.cases-swiper', {
     slidesPerView: 'auto',
     spaceBetween: 40,
     loop: true,
+    speed: 700,
     breakpoints: {
         1024: {
             spaceBetween: 90,
