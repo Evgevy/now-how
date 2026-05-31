@@ -941,7 +941,7 @@ body {
 .breadcrumbs-custom {
     font-weight: 600;
     font-size: 26px;
-    line-height: 100%;
+    line-height: 130%;
     letter-spacing: 0;
     leading-trim: none;
     gap: 12px 0;
@@ -1170,6 +1170,12 @@ body {
     }
 }
 
+@media screen and (max-width: 990px) {
+    .merchdata-title {
+        font-size: 40px;
+    }
+}
+
 @media (max-width: 768px) {
     .breadcrumbs-container {
         padding: 60px 20px 30px 20px;
@@ -1263,6 +1269,21 @@ body {
 
     .merchdata-content {
         padding-bottom: 30px;
+    }
+
+    .merchdata-title {
+        font-size: 30px;
+        line-height: 130%;
+    }
+
+    .merchdata-subtitle {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .merchdata-title {
+        font-size: 20px;
     }
 }
 
